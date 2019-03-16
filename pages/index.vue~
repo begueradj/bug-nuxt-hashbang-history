@@ -1,0 +1,45 @@
+<template>
+  <v-layout
+    column
+    justify-center
+    align-center
+  >
+    <v-flex
+      id="up"
+      xs12
+      sm8
+    >
+      <v-card
+        height="800px"
+        width="800px"
+      >
+        <v-card-text> Up area</v-card-text>
+      </v-card>
+    </v-flex>
+
+    <v-flex
+      xs12
+      sm8
+    >
+      <v-card
+        height="800px"
+        width="800px"
+      >
+        <v-card-text>Down area</v-card-text>
+      </v-card>
+    </v-flex>
+  </v-layout>
+</template>
+
+<script>
+export default {
+  components: {}
+}
+</script>
+
+<style>
+.up-area{
+    background-color: red;
+    height: 400px;
+}
+</style>
